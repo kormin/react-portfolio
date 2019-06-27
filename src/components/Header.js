@@ -6,7 +6,7 @@ class Header extends Component {
       // Navigation
       <div class="container">
         <nav class="nav">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="/">
             Kormin
           </a>
           <a class="nav-link" href="#about">

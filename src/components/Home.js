@@ -7,6 +7,7 @@ class Home extends Component {
       <div>
         <img
           src="https://kormin.github.io/images/landing-xl.jpg"
+          alt="desk"
           class="img-fluid"
         />
 
@@ -105,7 +106,11 @@ class Home extends Component {
           <div id="contact" class="row">
             <div class="col-sm" />
             <div class="col-sm text-center">
-              <a target="_blank" href="mailto:abaotom14@gmail.com">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:abaotom14@gmail.com"
+              >
                 email
               </a>
               &nbsp;|&nbsp;
