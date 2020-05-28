@@ -8,13 +8,13 @@ class Home extends Component {
         <img
           src="https://kormin.github.io/images/landing-xl.jpg"
           alt="desk"
-          class="img-fluid"
+          className="img-fluid"
         />
 
-        <div class="container">
-          <div id="about" class="row">
-            <div class="col-sm" />
-            <div class="col-sm">
+        <div className="container">
+          <div id="about" className="row">
+            <div className="col-sm" />
+            <div className="col-sm">
               <h1>Hello, World!</h1>
               <p>
                 I'm Tom, and I develop software.
@@ -24,12 +24,12 @@ class Home extends Component {
                 I've been using the Spring Framework.
               </p>
             </div>
-            <div class="col-sm" />
+            <div className="col-sm" />
           </div>
 
-          <div id="interests" class="row">
-            <div class="col-sm" />
-            <div class="col-sm">
+          <div id="interests" className="row">
+            <div className="col-sm" />
+            <div className="col-sm">
               <p>
                 I play computer games, read books, and watch shows.
                 <br />
@@ -42,13 +42,13 @@ class Home extends Component {
                 This is my portfolio website. It is currently under renovation.
               </p>
             </div>
-            <div class="col-sm" />
+            <div className="col-sm" />
           </div>
 
-          <div id="skills" class="row">
-            <div class="col-sm" />
-            <div class="col-sm">
-              <table class="table table-borderless">
+          <div id="skills" className="row">
+            <div className="col-sm" />
+            <div className="col-sm">
+              <table className="table table-borderless">
                 <thead>
                   <tr>
                     <th scope="col">Skill</th>
@@ -99,13 +99,13 @@ class Home extends Component {
                 </tbody>
               </table>
             </div>
-            <div class="col-sm" />
+            <div className="col-sm" />
           </div>
 
           {/* Contact */}
-          <div id="contact" class="row">
-            <div class="col-sm" />
-            <div class="col-sm text-center">
+          <div id="contact" className="row">
+            <div className="col-sm" />
+            <div className="col-sm text-center">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -130,7 +130,7 @@ class Home extends Component {
                 github
               </a>
             </div>
-            <div class="col-sm" />
+            <div className="col-sm" />
           </div>
           <br />
         </div>
