@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 import Work from './components/Work';
 
+import './main.css';
 
 function App() {
   return (

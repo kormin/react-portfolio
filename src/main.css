@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    display: grid;
+}
+
+.row {
+    background-color: rgb(36, 36, 36);
+}
+
+ul.nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin: 12px;
+}
+
+ul.nav li {
+    padding: 6px;
+}
+
+ul.nav li a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+#header {
+    background-color: #606060;
+}
