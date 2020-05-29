@@ -5,8 +5,8 @@ class Header extends Component {
     return (
       // Navigation
       <div id="header" className="row">
-        <ul className="nav">
-          <li>
+        <ul className="taskbar">
+          <li className="active">
             <a href="#home">
               >tom_
             </a>

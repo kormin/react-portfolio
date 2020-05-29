@@ -7,23 +7,30 @@ body {
 }
 
 .row {
-    background-color: rgb(36, 36, 36);
+    background-color: #333333;
 }
 
-ul.nav {
+ul.taskbar {
     display: flex;
     list-style: none;
     padding-left: 0px;
-    margin: 12px;
+    margin: 0px;
 }
 
-ul.nav li {
-    padding: 6px;
-}
-
-ul.nav li a {
+ul.taskbar > li > a {
+    line-height: 65px;
+    padding: 24px;
     color: #cccccc;
     text-decoration: none;
+}
+
+ul.taskbar > li.active > a {
+    background-color: #333333;
+}
+
+ul.taskbar > li > a:hover {
+    color: #d0d0d0;
+    background-color: #333333;
 }
 
 #header {
