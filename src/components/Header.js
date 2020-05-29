@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       // Navigation
-      <div className="row">
+      <div id="header" className="row">
         <ul className="nav">
           <li>
             <a href="#home">
