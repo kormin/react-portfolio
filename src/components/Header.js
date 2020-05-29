@@ -4,24 +4,29 @@ class Header extends Component {
   render() {
     return (
       // Navigation
-      <div className="container">
-        <nav className="nav">
-          <a className="nav-link" href="/">
-            Kormin
-          </a>
-          <a className="nav-link" href="#about">
-            About
-          </a>
-          <a className="nav-link" href="#interests">
-            Interests
-          </a>
-          <a className="nav-link" href="#skills">
-            Skills
-          </a>
-          <a className="nav-link" href="#contact">
-            Contact
-          </a>
-        </nav>
+      <div className="row">
+        <ul className="nav">
+          <li>
+            <a className="nav-link" href="#home">
+              >tom_
+            </a>
+          </li>
+          <li>
+            <a className="nav-link" href="#about">
+              About
+            </a>
+          </li>
+          <li>
+            <a className="nav-link" href="#work">
+              Work
+            </a>
+          </li>
+          <li>
+            <a className="nav-link" href="#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
       </div>
     );
   }
