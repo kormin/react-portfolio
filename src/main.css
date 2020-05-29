@@ -1,6 +1,7 @@
 /* General */
 body {
   margin: 0px;
+  font-family: 'robotoregular';
 }
 
 .wrapper {
@@ -22,6 +23,7 @@ ul.taskbar {
 ul.taskbar > li > a {
   line-height: 65px;
   padding: 24px;
+  margin-right: 4px;
   color: #cccccc;
   text-decoration: none;
 }

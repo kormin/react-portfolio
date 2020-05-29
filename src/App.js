@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Work from './components/Work';
 
 import './main.css';
+import './fonts/roboto-regular/stylesheet.css'
 
 function App() {
   return (
