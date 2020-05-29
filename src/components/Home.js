@@ -5,14 +5,21 @@ class Home extends Component {
     return (
       // Home
       <div id="home" className="row">
-        <h1>Hello, World!</h1>
-        <p>
-          Tom
-          <br />
-          Web Developer
-          <br />
-          Currently building with Python
-        </p>
+        <div className="terminal-titlebar">
+          <b>bash</b>
+        </div>
+        <div className="terminal-content">
+          tom@desktop:~$ ./greet-visitor
+          <h1>Hello, World!</h1>
+          tom@desktop:~$ whoami
+          <p>
+            Tom
+            <br />
+            Web Developer
+            <br />
+            Currently building with Python
+          </p>
+        </div>
 
       </div>
     );

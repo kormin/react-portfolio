@@ -1,3 +1,4 @@
+/* General */
 body {
     margin: 0px;
 }
@@ -10,6 +11,7 @@ body {
     background-color: #333333;
 }
 
+/* Header */
 ul.taskbar {
     display: flex;
     list-style: none;
@@ -35,4 +37,9 @@ ul.taskbar > li > a:hover {
 
 #header {
     background-color: #606060;
+}
+
+/* Home */
+.terminal-titlebar {
+    text-align: center;
 }
