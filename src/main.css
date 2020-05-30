@@ -90,6 +90,16 @@ ul.taskbar > li > a:hover {
   border-color: #000000;
 }
 
+.tech-stack-content > h4 {
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.tech-stack-content > p {
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
 /* Contact */
 #contact {
   text-align: center;

@@ -11,24 +11,23 @@ class Work extends Component {
           localhost:1234
         </div>
         <div className="browser-content">
-          <table>
-            <thead>
-              <tr>
-                <th scope="col">Skill</th>
-                <th scope="col">Rating</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Python</td>
-                <td>8</td>
-              </tr>
-              <tr>
-                <td>Django</td>
-                <td>8</td>
-              </tr>
-            </tbody>
-          </table>
+          <div className="browser-row">
+            <div className="tech-stack-title">
+              <h1>Tech Stack</h1>
+            </div>
+            <div className="tech-stack-content">
+              <h4>Python</h4>
+              <p>Libraries: Django Framework, Django REST Framework</p>
+            </div>
+            <div className="tech-stack-content">
+              <h4>Java</h4>
+              <p>Libraries: Spring Framework</p>
+            </div>
+            <div className="tech-stack-content">
+              <h4>Java</h4>
+              <p>Libraries: Spring Framework</p>
+            </div>
+          </div>
         </div>
       </div>
     );
