@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import About from './About';
+
 class Home extends Component {
   render() {
     return (
@@ -19,22 +21,7 @@ class Home extends Component {
           <br />
           Currently building with Python
           <br />
-          <div className="nano">
-            <div className="nano-titlebar">
-              File: /contact.txt
-            </div>
-            tom@desktop:~$ nano about-me.txt
-            <br />
-            <span>
-              I play computer games, read books, and watch movies and television shows.
-              I enjoy the Pokemon games series.
-              I've read all the Harry Potter books.
-              I'm also interested in fitness.
-            </span>
-            <div className="nano-options">
-              File: /contact.txt
-            </div>
-          </div>
+          <About />
         </div>
 
       </div>
