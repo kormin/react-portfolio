@@ -68,6 +68,17 @@ ul.taskbar > li > a:hover {
   padding: 6px;
 }
 
+/* Work */
+#work {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.browser-titlebar {
+  background-color: #000000;
+  padding: 10px;
+}
+
 @media (min-width: 576px) {
   #home {
     padding: 10px 60px;

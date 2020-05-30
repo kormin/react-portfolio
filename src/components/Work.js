@@ -4,6 +4,9 @@ class Work extends Component {
   render() {
     return (
       <div id="work" className="row">
+        <div className="browser-titlebar">
+          Tom's Portfolio
+        </div>
         <table>
           <thead>
             <tr>
