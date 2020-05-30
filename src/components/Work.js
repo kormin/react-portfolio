@@ -8,8 +8,10 @@ class Work extends Component {
           <span>Tom's Portfolio</span>
           <a target="_blank" rel="noopener noreferrer" href="/">+</a>
         </div>
-        <div className="browser-address-bar">
-          localhost:1234
+        <div className="browser-tool-bar">
+          <div className="browser-address-bar">
+            localhost:1234
+          </div>
         </div>
         <div className="browser-content">
           <div className="browser-row">
