@@ -148,6 +148,16 @@ ul.taskbar > li > a:hover {
   text-align: center;
 }
 
+.contact-links > a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.contact-links > a:hover {
+  color: #d0d0d0;
+  text-decoration: underline;
+}
+
 /* Footer */
 #footer {
   text-align: center;
