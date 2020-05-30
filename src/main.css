@@ -8,10 +8,6 @@ body {
   display: grid;
 }
 
-.row {
-  background-color: #333333;
-}
-
 /* Header */
 ul.taskbar {
   display: flex;
@@ -22,7 +18,7 @@ ul.taskbar {
 
 ul.taskbar > li > a {
   line-height: 65px;
-  padding: 24px;
+  padding: 21.7px;
   margin-right: 4px;
   color: #cccccc;
   text-decoration: none;
