@@ -21,13 +21,15 @@ class Work extends Component {
             </div>
             <div className="tech-stack-content">
               <h4>Java</h4>
-              <p>Libraries: Spring Framework</p>
+              <p>Libraries: Spring Framework, Hibernate ORM, JUnit</p>
+              <p>Tools: Sentry, Oracle Weblogic, SonarQube, Splunk</p>
             </div>
             <div className="tech-stack-content">
-              <h4>Java</h4>
-              <p>Libraries: Spring Framework</p>
+              <h4>ReactJS</h4>
+              <p>Libraries: Ant Design</p>
             </div>
           </div>
+
         </div>
       </div>
     );
