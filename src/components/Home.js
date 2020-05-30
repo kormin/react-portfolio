@@ -19,7 +19,10 @@ class Home extends Component {
           <br />
           Currently building with Python
           <br />
-          <div className="terminal-nano">
+          <div className="nano">
+            <div className="nano-titlebar">
+              File: /contact.txt
+            </div>
             tom@desktop:~$ nano about-me.txt
             <br />
             <span>
@@ -28,6 +31,9 @@ class Home extends Component {
               I've read all the Harry Potter books.
               I'm also interested in fitness.
             </span>
+            <div className="nano-options">
+              File: /contact.txt
+            </div>
           </div>
         </div>
 
