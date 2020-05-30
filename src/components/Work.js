@@ -1,12 +1,22 @@
 import React, { Component } from 'react';
+import { UilPlus, UilTimes } from '@iconscout/react-unicons';
 
 class Work extends Component {
   render() {
     return (
       <div id="work" className="row">
         <div className="browser-titlebar">
-          <span>Tom's Portfolio</span>
-          <a target="_blank" rel="noopener noreferrer" href="/">+</a>
+          <div className="browser-tab">
+            <div className="browser-tab-title">Tom's Portfolio</div>
+            <div className="browser-tab-close">
+              <UilTimes />
+            </div>
+          </div>
+          <div>
+            <a target="_blank" rel="noopener noreferrer" href="/">
+              <UilPlus />
+            </a>
+          </div>
         </div>
         <div className="browser-tool-bar">
           <div className="browser-address-bar">

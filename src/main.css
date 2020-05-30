@@ -71,17 +71,29 @@ ul.taskbar > li > a:hover {
 }
 
 .browser-titlebar {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
   background-color: #000000;
 }
 
-.browser-titlebar > span {
-  line-height: 50px;
-  padding: 14px 110px 14px 10px;
+.browser-tab {
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 50px;
   margin-right: 12px;
   background-color: #333333;
 }
 
-.browser-titlebar > a {
+.browser-tab-title {
+  padding: 14px 0px 10px 10px;
+}
+
+.browser-tab-close {
+  text-align: right;
+  padding: 14px 6px 10px 0px;
+}
+
+.browser-titlebar > div > a {
   color: #cccccc;
   text-decoration: none;
 }
