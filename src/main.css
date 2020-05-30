@@ -79,6 +79,11 @@ ul.taskbar > li > a:hover {
   padding: 10px;
 }
 
+.browser-address-bar {
+  background-color: #f5f5f5;
+  padding: 10px;
+}
+
 .browser-content {
   padding: 30px;
 }

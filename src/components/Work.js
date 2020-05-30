@@ -7,6 +7,9 @@ class Work extends Component {
         <div className="browser-titlebar">
           Tom's Portfolio
         </div>
+        <div className="browser-address-bar">
+          localhost:1234
+        </div>
         <div className="browser-content">
           <table>
             <thead>
