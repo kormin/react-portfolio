@@ -5,7 +5,9 @@ class Footer extends Component {
     return (
       // Footer
       <footer id="footer" className="row">
-        Developed by Tom Abao &copy; 2019
+        Written in <a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">React</a>.
+        <br />
+        &copy; Tom Abao 2020
       </footer>
     );
   }
