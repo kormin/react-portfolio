@@ -12,10 +12,12 @@ class Work extends Component {
               <UilTimes />
             </div>
           </div>
-          <div>
-            <a target="_blank" rel="noopener noreferrer" href="/">
-              <UilPlus />
-            </a>
+          <div className="browser-space">
+            <div className="browser-new-tab">
+              <a target="_blank" rel="noopener noreferrer" href="/">
+                <UilPlus />
+              </a>
+            </div>
           </div>
         </div>
         <div className="browser-tool-bar">
