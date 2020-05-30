@@ -5,7 +5,8 @@ class Work extends Component {
     return (
       <div id="work" className="row">
         <div className="browser-titlebar">
-          Tom's Portfolio
+          <span>Tom's Portfolio</span>
+          <a target="_blank" rel="noopener noreferrer" href="/">+</a>
         </div>
         <div className="browser-address-bar">
           localhost:1234

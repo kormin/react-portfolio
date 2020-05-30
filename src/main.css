@@ -72,7 +72,18 @@ ul.taskbar > li > a:hover {
 
 .browser-titlebar {
   background-color: #000000;
-  padding: 10px;
+}
+
+.browser-titlebar > span {
+  line-height: 50px;
+  padding: 14px 110px 14px 10px;
+  margin-right: 12px;
+  background-color: #333333;
+}
+
+.browser-titlebar > a {
+  color: #cccccc;
+  text-decoration: none;
 }
 
 .browser-address-bar {
@@ -114,6 +125,7 @@ ul.taskbar > li > a:hover {
 /* Footer */
 #footer {
   text-align: center;
+  padding: 40px 40px 20px 40px;
 }
 
 @media (min-width: 576px) {
