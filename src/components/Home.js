@@ -20,7 +20,7 @@ class Home extends Component {
           Web Developer
           <br />
           Currently building with Python
-          <br />
+          <br /><br />
           <About />
         </div>
 
