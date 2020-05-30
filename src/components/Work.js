@@ -30,6 +30,16 @@ class Work extends Component {
             </div>
           </div>
 
+          <div className="browser-row">
+            <div className="other-skills-title">
+              <h1>Other Skills</h1>
+            </div>
+            <div className="other-skills-content">
+              <p>C, C++, Android, SQL, HTML, CSS, JavaScript, Vue.js, Bootstrap</p>
+              <p>Amazon Web Services, DigitalOcean Droplets, Git, Ubuntu, JIRA, Confluence, Jenkins</p>
+            </div>
+          </div>
+
         </div>
       </div>
     );

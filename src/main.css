@@ -96,6 +96,16 @@ ul.taskbar > li > a:hover {
   margin-bottom: 6px;
 }
 
+.other-skills-content > h4 {
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+.other-skills-content > p {
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
 /* Contact */
 #contact {
   text-align: center;
