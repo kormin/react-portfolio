@@ -12,13 +12,12 @@ class Home extends Component {
           tom@desktop:~$ ./greet-visitor
           <h1>Hello, World!</h1>
           tom@desktop:~$ whoami
-          <p>
-            Tom
-            <br />
-            Web Developer
-            <br />
-            Currently building with Python
-          </p>
+          <br />
+          Tom
+          <br />
+          Web Developer
+          <br />
+          Currently building with Python
         </div>
 
       </div>
