@@ -5,7 +5,7 @@ class Footer extends Component {
     return (
       // Footer
       <footer id="footer" className="row">
-        Written in <a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">React</a>.
+        Written with <a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">React</a>.
         <br />
         &copy; Tom Abao 2020
       </footer>
