@@ -7,24 +7,26 @@ class Work extends Component {
         <div className="browser-titlebar">
           Tom's Portfolio
         </div>
-        <table>
-          <thead>
-            <tr>
-              <th scope="col">Skill</th>
-              <th scope="col">Rating</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Python</td>
-              <td>8</td>
-            </tr>
-            <tr>
-              <td>Django</td>
-              <td>8</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="browser-content">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Skill</th>
+                <th scope="col">Rating</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Python</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>Django</td>
+                <td>8</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     );
   }

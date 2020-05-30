@@ -79,6 +79,10 @@ ul.taskbar > li > a:hover {
   padding: 10px;
 }
 
+.browser-content {
+  padding: 30px;
+}
+
 @media (min-width: 576px) {
   #home {
     padding: 10px 60px;
