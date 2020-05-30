@@ -17,16 +17,18 @@ class Work extends Component {
             </div>
             <div className="tech-stack-content">
               <h4>Python</h4>
-              <p>Libraries: Django Framework, Django REST Framework</p>
+              <p>Libraries: Django Framework, Django REST Framework, Celery, RabbitMQ</p>
+              <p>Tools: Elasticsearch, Google AdWords, EC2, RDS, Docker, Jenkins</p>
             </div>
             <div className="tech-stack-content">
               <h4>Java</h4>
               <p>Libraries: Spring Framework, Hibernate ORM, JUnit</p>
-              <p>Tools: Sentry, Oracle Weblogic, SonarQube, Splunk</p>
+              <p>Tools: Jenkins, Oracle Weblogic, SonarQube, Splunk</p>
             </div>
             <div className="tech-stack-content">
               <h4>ReactJS</h4>
               <p>Libraries: Ant Design</p>
+              <p>Tools: EC2, RDS</p>
             </div>
           </div>
 
@@ -36,7 +38,7 @@ class Work extends Component {
             </div>
             <div className="other-skills-content">
               <p>C, C++, Android, SQL, HTML, CSS, JavaScript, Vue.js, Bootstrap</p>
-              <p>Amazon Web Services, DigitalOcean Droplets, Git, Ubuntu, JIRA, Confluence, Jenkins</p>
+              <p>Amazon Web Services, DigitalOcean Droplets, Git, Ubuntu, JIRA, Confluence, Sentry</p>
             </div>
           </div>
 
