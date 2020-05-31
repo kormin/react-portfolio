@@ -95,14 +95,10 @@ ul.taskbar > li > a:hover {
 }
 
 .browser-space {
-  display: grid;
-}
-
-.browser-new-tab {
   padding: 12px 6px 10px 12px;
 }
 
-.browser-new-tab > ul {
+ul.titlebar-options {
   display: flex;
   list-style: none;
   padding-left: 0px;
@@ -110,13 +106,17 @@ ul.taskbar > li > a:hover {
   float: right;
 }
 
-.browser-new-tab a {
+ul.titlebar-options > li {
+  padding-left: 8px;
+}
+
+.browser-space > a {
   line-height: 25px;
   color: #cccccc;
   text-decoration: none;
 }
 
-.browser-new-tab a:hover > svg {
+.browser-space > a:hover > svg {
   background-color: #333333;
 }
 

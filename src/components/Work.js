@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { UilPlus, UilTimes } from '@iconscout/react-unicons';
+import { UilPlus, UilTimes, UilMinus, UilSquareShape, UilMultiply } from '@iconscout/react-unicons';
 
 class Work extends Component {
   render() {
@@ -13,11 +13,14 @@ class Work extends Component {
             </div>
           </div>
           <div className="browser-space">
-            <div className="browser-new-tab">
-              <a target="_blank" rel="noopener noreferrer" href="/">
-                <UilPlus />
-              </a>
-            </div>
+            <a target="_blank" rel="noopener noreferrer" href="/">
+              <UilPlus />
+            </a>
+            <ul className="titlebar-options">
+              <li><UilMinus /></li>
+              <li><UilSquareShape /></li>
+              <li><UilMultiply /></li>
+            </ul>
           </div>
         </div>
         <div className="browser-tool-bar">
