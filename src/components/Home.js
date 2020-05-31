@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { UilMinus, UilSquareShape, UilMultiply } from '@iconscout/react-unicons';
 
 import About from './About';
+import TitlebarOptions from './titlebar/Options';
 
 class Home extends Component {
   render() {
@@ -10,11 +10,7 @@ class Home extends Component {
       <div id="home" className="row">
         <div className="terminal-titlebar">
           <b>terminal</b>
-          <ul className="titlebar-options">
-            <li><UilMinus /></li>
-            <li><UilSquareShape /></li>
-            <li><UilMultiply /></li>
-          </ul>
+          <TitlebarOptions />
         </div>
         <div className="terminal-content">
           tom@desktop:~$ ./greet-visitor

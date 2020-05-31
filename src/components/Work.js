@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { UilPlus, UilTimes, UilMinus, UilSquareShape, UilMultiply } from '@iconscout/react-unicons';
+import { UilPlus, UilTimes } from '@iconscout/react-unicons';
+
+import TitlebarOptions from './titlebar/Options';
 
 class Work extends Component {
   render() {
@@ -16,11 +18,7 @@ class Work extends Component {
             <a target="_blank" rel="noopener noreferrer" href="/">
               <UilPlus />
             </a>
-            <ul className="titlebar-options">
-              <li><UilMinus /></li>
-              <li><UilSquareShape /></li>
-              <li><UilMultiply /></li>
-            </ul>
+            <TitlebarOptions />
           </div>
         </div>
         <div className="browser-tool-bar">
