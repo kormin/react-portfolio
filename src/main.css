@@ -79,7 +79,7 @@ ul.taskbar > li > a:hover {
 /* Browser */
 .browser-titlebar {
   display: grid;
-  grid-template-columns: 2fr 8fr;
+  grid-template-columns: 5fr 5fr;
   background-color: #000000;
   height: 53px;
 }
@@ -179,7 +179,20 @@ ul.titlebar-options > li {
   #home {
     padding: 10px 60px;
   }
+
   .terminal-content {
     padding: 10px 10px 30px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .browser-titlebar {
+    grid-template-columns: 4fr 6fr;
+  }
+}
+
+@media (min-width: 992px) {
+  .browser-titlebar {
+    grid-template-columns: 2fr 8fr;
   }
 }
