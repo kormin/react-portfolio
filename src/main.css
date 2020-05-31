@@ -102,13 +102,21 @@ ul.taskbar > li > a:hover {
   padding: 12px 6px 10px 12px;
 }
 
-.browser-new-tab > a {
+.browser-new-tab > ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+  float: right;
+}
+
+.browser-new-tab a {
   line-height: 25px;
   color: #cccccc;
   text-decoration: none;
 }
 
-.browser-new-tab > a:hover > svg {
+.browser-new-tab a:hover > svg {
   background-color: #333333;
 }
 
