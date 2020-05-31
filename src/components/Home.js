@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { UilMinus, UilSquareShape, UilMultiply } from '@iconscout/react-unicons';
 
 import About from './About';
 
@@ -8,7 +9,12 @@ class Home extends Component {
       // Home
       <div id="home" className="row">
         <div className="terminal-titlebar">
-          <b>bash</b>
+          <b>terminal</b>
+          <ul className="titlebar-options">
+            <li><UilMinus /></li>
+            <li><UilSquareShape /></li>
+            <li><UilMultiply /></li>
+          </ul>
         </div>
         <div className="terminal-content">
           tom@desktop:~$ ./greet-visitor

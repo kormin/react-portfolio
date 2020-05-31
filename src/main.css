@@ -42,7 +42,12 @@ ul.taskbar > li > a:hover {
 .terminal-titlebar {
   text-align: center;
   background-color: #f5f5f5;
-  padding: 6px;
+  padding: 8px;
+  height: 30px;
+}
+
+.terminal-titlebar > b {
+  font-size: 20px;
 }
 
 .terminal-content {
