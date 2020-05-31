@@ -9,10 +9,10 @@ class Work extends Component {
       <div id="work" className="row">
         <div className="browser-titlebar">
           <div className="browser-tab">
-            <div className="browser-tab-title">Tom's Portfolio</div>
-            <div className="browser-tab-close">
-              <UilTimes />
-            </div>
+            Tom's Portfolio
+            <ul>
+              <li><UilTimes /></li>
+            </ul>
           </div>
           <div className="browser-space">
             <a target="_blank" rel="noopener noreferrer" href="/">

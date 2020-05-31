@@ -85,18 +85,16 @@ ul.taskbar > li > a:hover {
 }
 
 .browser-tab {
-  display: grid;
-  grid-template-columns: auto auto;
   background-color: #333333;
+  padding: 14px 6px 10px 10px;
 }
 
-.browser-tab-title {
-  padding: 14px 0px 10px 10px;
-}
-
-.browser-tab-close {
-  text-align: right;
-  padding: 14px 6px 10px 0px;
+.browser-tab > ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+  float: right;
 }
 
 .browser-space {
