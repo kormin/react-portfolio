@@ -38,6 +38,12 @@ ul.taskbar > li > a:hover {
 }
 
 /* Home */
+#home {
+  display: grid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /* Terminal */
 .terminal-titlebar {
   text-align: center;
@@ -177,7 +183,7 @@ ul.titlebar-options > li {
 
 @media (min-width: 576px) {
   #home {
-    padding: 10px 60px;
+    grid-template-columns: 1fr 6fr 1fr;
   }
 
   .terminal-content {
@@ -186,12 +192,20 @@ ul.titlebar-options > li {
 }
 
 @media (min-width: 768px) {
+  #home {
+    grid-template-columns: 2fr 8fr 2fr;
+  }
+
   .browser-titlebar {
     grid-template-columns: 4fr 6fr;
   }
 }
 
 @media (min-width: 992px) {
+  #home {
+    grid-template-columns: 2fr 6fr 2fr;
+  }
+
   .browser-titlebar {
     grid-template-columns: 2fr 8fr;
   }
