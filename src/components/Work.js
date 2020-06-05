@@ -21,7 +21,7 @@ class Work extends Component {
             <TitlebarOptions />
           </div>
         </div>
-        <div className="browser-tool-bar">
+        <div className="browser-toolbar">
           <div className="browser-address-bar">
             localhost:1234
           </div>
