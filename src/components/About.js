@@ -4,7 +4,10 @@ class About extends Component {
   render() {
     return (
       <div className="nano">
-        tom@desktop:~$ nano about-me.txt
+        <span className="terminal-user">tom@desktop</span>
+        <span className="terminal-command">:</span>
+        <span className="terminal-directory">~</span>
+        <span className="terminal-command">$ nano about-me.txt</span>
         <div className="nano-titlebar">
           File: /contact.txt
         </div>

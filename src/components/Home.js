@@ -15,9 +15,16 @@ class Home extends Component {
             <TitlebarOptions />
           </div>
           <div className="terminal-content">
-            tom@desktop:~$ ./greet-visitor
+            <span className="terminal-user">tom@desktop</span>
+            <span className="terminal-command">:</span>
+            <span className="terminal-directory">~</span>
+            <span className="terminal-command">$ ./greet-visitor</span>
             <h1>Hello, World!</h1>
-            tom@desktop:~$ whoami
+
+            <span className="terminal-user">tom@desktop</span>
+            <span className="terminal-command">:</span>
+            <span className="terminal-directory">~</span>
+            <span className="terminal-command">$ whoami
             <br />
             Tom
             <br />
@@ -25,6 +32,8 @@ class Home extends Component {
             <br />
             Currently building with Python
             <br /><br />
+            </span>
+
             <About />
           </div>
         </div>
