@@ -6,10 +6,6 @@ const menuItems = [
     'link': '#home'
   },
   {
-    'name': 'about',
-    'link': '#about'
-  },
-  {
     'name': 'work',
     'link': '#work'
   },
