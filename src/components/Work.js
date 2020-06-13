@@ -27,36 +27,40 @@ class Work extends Component {
           </div>
         </div>
         <div className="browser-content">
-          <div className="browser-row">
-            <div className="tech-stack-title">
-              <h1>Tech Stack</h1>
+          <div></div>
+          <div>
+            <div className="browser-row">
+              <div className="tech-stack-title">
+                <h1>Tech Stack</h1>
+              </div>
+              <div className="tech-stack-content">
+                <h4>Python</h4>
+                <p>Libraries: Django Framework, Django REST Framework, Celery, RabbitMQ</p>
+                <p>Tools: Elasticsearch, Google AdWords, EC2, RDS, Docker, Jenkins</p>
+              </div>
+              <div className="tech-stack-content">
+                <h4>Java</h4>
+                <p>Libraries: Spring Framework, Hibernate ORM, JUnit</p>
+                <p>Tools: Jenkins, Oracle Weblogic, SonarQube, Splunk</p>
+              </div>
+              <div className="tech-stack-content">
+                <h4>ReactJS</h4>
+                <p>Libraries: Ant Design</p>
+                <p>Tools: EC2, RDS</p>
+              </div>
             </div>
-            <div className="tech-stack-content">
-              <h4>Python</h4>
-              <p>Libraries: Django Framework, Django REST Framework, Celery, RabbitMQ</p>
-              <p>Tools: Elasticsearch, Google AdWords, EC2, RDS, Docker, Jenkins</p>
-            </div>
-            <div className="tech-stack-content">
-              <h4>Java</h4>
-              <p>Libraries: Spring Framework, Hibernate ORM, JUnit</p>
-              <p>Tools: Jenkins, Oracle Weblogic, SonarQube, Splunk</p>
-            </div>
-            <div className="tech-stack-content">
-              <h4>ReactJS</h4>
-              <p>Libraries: Ant Design</p>
-              <p>Tools: EC2, RDS</p>
-            </div>
-          </div>
 
-          <div className="browser-row">
-            <div className="other-skills-title">
-              <h1>Other Skills</h1>
-            </div>
-            <div className="other-skills-content">
-              <p>C, C++, Android, SQL, HTML, CSS, JavaScript, Vue.js, Bootstrap</p>
-              <p>Amazon Web Services, DigitalOcean Droplets, Git, Ubuntu, JIRA, Confluence, Sentry</p>
+            <div className="browser-row">
+              <div className="other-skills-title">
+                <h1>Other Skills</h1>
+              </div>
+              <div className="other-skills-content">
+                <p>C, C++, Android, SQL, HTML, CSS, JavaScript, Vue.js, Bootstrap</p>
+                <p>Amazon Web Services, DigitalOcean Droplets, Git, Ubuntu, JIRA, Confluence, Sentry</p>
+              </div>
             </div>
           </div>
+          <div></div>
 
         </div>
       </div>
