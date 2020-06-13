@@ -162,9 +162,15 @@ ul.titlebar-options > li {
 }
 
 .browser-content {
+  display: grid;
+  grid-template-columns: auto;
   padding: 30px;
   border: 2px solid #000000;
   border-top-width: 0px;
+}
+
+.browser-content > .browser-row {
+  padding-right: 8px;
 }
 
 .tech-stack-content > h4 {
@@ -235,5 +241,9 @@ ul.titlebar-options > li {
 
   .browser-titlebar {
     grid-template-columns: 2fr 8fr;
+  }
+
+  .browser-content {
+    grid-template-columns: 5fr 5fr;
   }
 }
