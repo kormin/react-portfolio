@@ -62,6 +62,10 @@ ul.taskbar > li > a:hover {
   padding: 8px 10px 20px 10px;
 }
 
+.terminal-content > h1 {
+  color: #D3D7CF;
+}
+
 .terminal-user {
   color: #4E9A06;
 }
