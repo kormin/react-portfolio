@@ -94,12 +94,6 @@ ul.taskbar > li > a:hover {
   padding: 6px;
 }
 
-/* Work */
-#work {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 /* Browser */
 .browser-titlebar {
   display: grid;
@@ -195,6 +189,8 @@ ul.titlebar-options > li {
 /* Contact */
 #contact {
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .contact-links > a {
