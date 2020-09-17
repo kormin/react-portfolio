@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c69ba39c.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.b7cf1fe2.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.b7cf1fe2.chunk.js.map",
-    "runtime-main.js": "/react-portfolio/static/js/runtime-main.1d992053.js",
-    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.1d992053.js.map",
-    "static/js/2.7218e679.chunk.js": "/react-portfolio/static/js/2.7218e679.chunk.js",
-    "static/js/2.7218e679.chunk.js.map": "/react-portfolio/static/js/2.7218e679.chunk.js.map",
-    "index.html": "/react-portfolio/index.html",
-    "precache-manifest.78a0b393d53f9766eca1c9dfd5890f2f.js": "/react-portfolio/precache-manifest.78a0b393d53f9766eca1c9dfd5890f2f.js",
-    "service-worker.js": "/react-portfolio/service-worker.js",
-    "static/css/main.c69ba39c.chunk.css.map": "/react-portfolio/static/css/main.c69ba39c.chunk.css.map",
-    "static/js/2.7218e679.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.7218e679.chunk.js.LICENSE.txt",
-    "static/media/stylesheet.css": "/react-portfolio/static/media/Roboto-Regular-webfont.b3be96cb.woff"
+    "main.css": "/static/css/main.3669a8c5.chunk.css",
+    "main.js": "/static/js/main.0ceb7635.chunk.js",
+    "main.js.map": "/static/js/main.0ceb7635.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.7218e679.chunk.js": "/static/js/2.7218e679.chunk.js",
+    "static/js/2.7218e679.chunk.js.map": "/static/js/2.7218e679.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0692e0b8c344011aee36ed39a7b6c73c.js": "/precache-manifest.0692e0b8c344011aee36ed39a7b6c73c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3669a8c5.chunk.css.map": "/static/css/main.3669a8c5.chunk.css.map",
+    "static/js/2.7218e679.chunk.js.LICENSE.txt": "/static/js/2.7218e679.chunk.js.LICENSE.txt",
+    "static/media/stylesheet.css": "/static/media/Roboto-Regular-webfont.b3be96cb.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d992053.js",
+    "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.7218e679.chunk.js",
-    "static/css/main.c69ba39c.chunk.css",
-    "static/js/main.b7cf1fe2.chunk.js"
+    "static/css/main.3669a8c5.chunk.css",
+    "static/js/main.0ceb7635.chunk.js"
   ]
 }
