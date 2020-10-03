@@ -1,3 +1,8 @@
+export const message = {
+  title: 'Want to collaborate?',
+  body: "Here's my contact info."
+};
+
 export const items = [
   {
     name: 'email',

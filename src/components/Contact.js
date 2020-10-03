@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 
-import { items } from "../constants/contact";
+import { message, items } from "../constants/contact";
 
 class Contact extends Component {
   render() {
     return (
       <div id="contact" className="row">
         <div className="contact-message">
-          <h1>Want to collaborate?</h1>
-          Here's my contact info.
+          <h1>{message.title}</h1>
+          {message.body}
         </div>
         <div className="contact-links">
           {items.map((item, i) =>
