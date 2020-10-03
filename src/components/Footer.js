@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
+import { footerItems } from "../constants/footer";
+
 class Footer extends Component {
   render() {
     return (
       // Footer
       <footer id="footer" className="row">
-        Written with <a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">React</a>.
+        {footerItems.written}<a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">{footerItems.react}</a>{footerItems.period}
         <br />
-        &copy; Tom Abao 2020
+        &copy; {footerItems.copy}
       </footer>
     );
   }
