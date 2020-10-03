@@ -20,14 +20,19 @@ export const items = {
         title: 'ReactJS',
         libraries: 'Libraries: Ant Design',
         tools: 'Tools: EC2, RDS'
+      },
+      {
+        title: 'Android Kotlin',
+        libraries: 'Libraries: AndroidX',
+        tools: 'Tools: Android Studio'
       }
     ]
   },
   misc: {
     title: 'Other Skills',
     content: [
-      'C, C++, Android, SQL, HTML, CSS, JavaScript, Vue.js, Bootstrap',
-      'Amazon Web Services, DigitalOcean Droplets, Git, Ubuntu, JIRA, Confluence, Sentry'
+      'C/C++, SQL, HTML, CSS, JavaScript, Vue.js, Bootstrap',
+      'Amazon Web Services, DigitalOcean Droplets, Git, Ubuntu, JIRA, Confluence, Jenkins, Travis CI, Sentry, Splunk'
     ]
   }
 };
