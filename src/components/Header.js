@@ -1,19 +1,6 @@
 import React, { Component } from 'react';
 
-const menuItems = [
-  {
-    'name': '>tom_',
-    'link': '#home'
-  },
-  {
-    'name': 'work',
-    'link': '#work'
-  },
-  {
-    'name': 'contact',
-    'link': '#contact'
-  }
-];
+import { menuItems } from "../constants/header";
 
 class Header extends Component {
   constructor() {
