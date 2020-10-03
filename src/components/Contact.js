@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import { items } from "../constants/contact";
+
 class Contact extends Component {
   render() {
     return (
@@ -9,29 +11,17 @@ class Contact extends Component {
           Here's my contact info.
         </div>
         <div className="contact-links">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="mailto:abaotom14@gmail.com"
-          >
-            email
-          </a>
-          &nbsp;|&nbsp;
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://ph.linkedin.com/in/tom-abao-09b649113"
-          >
-            linkedin
-          </a>
-          &nbsp;|&nbsp;
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/tabao-fs"
-          >
-            github
-          </a>
+          {items.map((item, i) =>
+            <a
+              key={i}
+              target="_blank"
+              rel="noopener noreferrer"
+              href={item.link}
+            >
+              {item.name}
+              &nbsp;
+            </a>
+          )}
         </div>
       </div>
     );
