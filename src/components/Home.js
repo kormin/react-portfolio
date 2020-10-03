@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import About from './About';
 import TitlebarOptions from './titlebar/Options';
+import { homeItems } from '../constants/home';
 
 class Home extends Component {
   render() {
@@ -11,26 +12,26 @@ class Home extends Component {
         <div></div>
         <div>
           <div className="terminal-titlebar">
-            <b>terminal</b>
+            <b>{homeItems.title}</b>
             <TitlebarOptions />
           </div>
           <div className="terminal-content">
-            <span className="terminal-user">tom@desktop</span>
-            <span className="terminal-command">:</span>
-            <span className="terminal-directory">~</span>
-            <span className="terminal-command">$ ./greet-visitor</span>
-            <h1>Hello, World!</h1>
+            <span className="terminal-user">{homeItems.user.name}</span>
+            <span className="terminal-command">{homeItems.user.colon}</span>
+            <span className="terminal-directory">{homeItems.user.tilde}</span>
+            <span className="terminal-command">{homeItems.user.dollar + homeItems.commands.greet}</span>
+            <h1>{homeItems.output.hello}</h1>
 
-            <span className="terminal-user">tom@desktop</span>
-            <span className="terminal-command">:</span>
-            <span className="terminal-directory">~</span>
-            <span className="terminal-command">$ whoami
+            <span className="terminal-user">{homeItems.user.name}</span>
+            <span className="terminal-command">{homeItems.user.colon}</span>
+            <span className="terminal-directory">{homeItems.user.tilde}</span>
+            <span className="terminal-command">{homeItems.user.dollar + homeItems.commands.owner}
             <br />
-            Tom
+            {homeItems.output.name}
             <br />
-            Web Developer
+            {homeItems.output.position}
             <br />
-            Currently building with Python
+            {homeItems.output.current}
             <br /><br />
             </span>
 
