@@ -7,7 +7,7 @@ class Footer extends Component {
     return (
       // Footer
       <footer id="footer" className="row">
-        {footerItems.written}<a target="_blank" rel="noopener noreferrer" href="https://reactjs.org/">{footerItems.react}</a>{footerItems.period}
+        {footerItems.written}<a target="_blank" rel="noopener noreferrer" href={footerItems.link}>{footerItems.react}</a>{footerItems.period}
         <br />
         &copy; {footerItems.copy}
       </footer>
