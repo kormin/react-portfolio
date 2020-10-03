@@ -12,9 +12,9 @@ class Contact extends Component {
         </div>
         <div className="contact-links">
           {items.map((item, i) =>
-            <span>
+            <span key={i}>
+              &nbsp;
               <a
-                key={i}
                 target="_blank"
                 rel="noopener noreferrer"
                 href={item.link}
@@ -22,6 +22,7 @@ class Contact extends Component {
                 {item.name}
               </a>
               &nbsp;
+              {i + 1 < items.length ? "|": ""}
             </span>
           )}
         </div>
