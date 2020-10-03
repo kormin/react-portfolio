@@ -12,15 +12,17 @@ class Contact extends Component {
         </div>
         <div className="contact-links">
           {items.map((item, i) =>
-            <a
-              key={i}
-              target="_blank"
-              rel="noopener noreferrer"
-              href={item.link}
-            >
-              {item.name}
+            <span>
+              <a
+                key={i}
+                target="_blank"
+                rel="noopener noreferrer"
+                href={item.link}
+              >
+                {item.name}
+              </a>
               &nbsp;
-            </a>
+            </span>
           )}
         </div>
       </div>

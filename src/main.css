@@ -193,12 +193,12 @@ ul.titlebar-options > li {
   padding-bottom: 20px;
 }
 
-.contact-links > a {
+.contact-links > span > a {
   color: #000000;
   text-decoration: none;
 }
 
-.contact-links > a:hover {
+.contact-links > span > a:hover {
   color: #333333;
   text-decoration: underline;
 }
