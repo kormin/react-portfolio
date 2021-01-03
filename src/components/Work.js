@@ -55,6 +55,19 @@ class Work extends Component {
                 )}
               </div>
             </div>
+
+            <div className="browser-row">
+              <div className="projects-title">
+                <h1>{items.projects.title}</h1>
+              </div>
+              <div className="projects-content">
+                {items.projects.content.map((item, i) =>
+                  <p key={i}>
+                    {item}
+                  </p>
+                )}
+              </div>
+            </div>
           </div>
           <div></div>
 

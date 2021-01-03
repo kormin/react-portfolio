@@ -34,5 +34,11 @@ export const items = {
       'C/C++, SQL, HTML, CSS, JavaScript, Vue.js, Bootstrap',
       'Amazon Web Services, DigitalOcean Droplets, Git, Ubuntu, JIRA, Confluence, Jenkins, Travis CI, Sentry, Splunk'
     ]
+  },
+  projects: {
+    title: '',
+    content: [
+      ''
+    ]
   }
 };
