@@ -36,9 +36,16 @@ export const items = {
     ]
   },
   projects: {
-    title: '',
+    title: 'Projects',
     content: [
-      ''
+      {
+        title: 'World Clock',
+        link: 'https://tabao-fs.github.io/worldclock/'
+      },
+      {
+        title: 'Lead Manager',
+        link: 'https://stormy-ridge-96978.herokuapp.com/'
+      }
     ]
   }
 };
