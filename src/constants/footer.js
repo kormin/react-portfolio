@@ -3,5 +3,5 @@ export const footerItems = {
     link: 'https://reactjs.org/',
     react: 'React',
     period: '.',
-    copy: 'Tom Abao 2020'
+    copy: 'Tom Abao 2021'
 };

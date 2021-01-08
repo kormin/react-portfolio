@@ -220,6 +220,14 @@ ul.titlebar-options > li {
   text-decoration: underline;
 }
 
+.projects-links > a {
+  text-decoration: none;
+}
+
+.projects-links > a:hover {
+  text-decoration: underline;
+}
+
 @media (min-width: 576px) {
   #home {
     grid-template-columns: 1fr 6fr 1fr;
